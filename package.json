@@ -1,0 +1,17 @@
+{
+  "name": "student-management-api",
+  "version": "1.0.0",
+  "description": "This is the student maagement api interface which helps us\r 1)Create a student in database.\r 2)Update the details of a student.\r 3)Delete a student from a database.\r 4)List the students present in the database.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
